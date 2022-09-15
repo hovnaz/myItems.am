@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/auth/register")
+@WebServlet(urlPatterns = "/auth/login")
 public class LoginServlet extends HttpServlet {
     UserManager userManager = new UserManager();
     @Override

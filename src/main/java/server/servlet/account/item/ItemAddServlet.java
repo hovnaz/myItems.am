@@ -11,7 +11,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 import java.util.Random;
 
-@WebServlet(urlPatterns = "account/item/add")
+@WebServlet(urlPatterns = "/account/item/add")
 @MultipartConfig(
         fileSizeThreshold = 1024 * 1024,
         maxFileSize = 1024 * 1024 * 10,

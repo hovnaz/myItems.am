@@ -12,6 +12,7 @@ import java.io.IOException;
 public class MainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        String catId = req.getParameter("cat_id");
         req.getRequestDispatcher("/WEB-INF/index.jsp").forward(req, resp);
     }
 }
